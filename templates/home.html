@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta  name="veiwport"  content="with-device-width, initall-scale=1.0">
+    <title>driver Drowsiness Detection System</title>
+     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
+</head>
+<body>
+<style>
+            *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anuphan', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(63,184,251);
+    background: radial-gradient(circle, rgba(63,184,251,1) 0%, rgba(8,13,98,1) 100%);
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li ::after{
+    content: '';
+    width: 0%;
+    background: #051937;
+    display: block;
+    margin: auto;
+}
+
+.nav-links ul li :hover ::after{
+    width: 100%;
+}
+
+.dd{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.text-box{
+    width: 90%;
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 50px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: azure;
+}
+
+.hero-btn{
+    border: none;
+    background: #29358d;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+
+.hero-btn:hover{
+    color: #fff;
+    border: #fff solid 1px;
+    background: transparent;
+ }
+
+ @media(max-width: 700px){
+    .text-box h1{
+    font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #051937;
+        height: 100vh;
+        background: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+
+  }
+ </style>
+    <section class="header">
+        <nav> 
+            <a href="home.html" class="dd">Driver Drowsiness Detection System</a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="">INFORMATION</a></li>
+                    <li><a href="/about">ABOUT</a></li>
+                </ul>
+            </div> 
+        </nav>
+    <div class="text-box">
+        <h1> Driver Drowsiness Detection System</h1>
+        <p>Drowsiness detection is a safety technology that can prevent<br> accidents that are caused by drivers who fell asleep while driving.
+        </p>
+        <a href="/index" class="hero-btn">get started</a>
+    </div>
+    </section>
+
+</body>
+</html>

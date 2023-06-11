@@ -47,7 +47,7 @@ python main.py
 
 ## Customization
 
-- You can modify the drowsiness detection parameters by adjusting the `ear_thresh` value in the `generate_frames` function of `app.py`.  This determines the number of consecutive frames with drowsiness detection before triggering the warning.
+- You can modify the drowsiness detection parameters by adjusting the `ear_thresh` value in the `generate_frames` function of `main.py`.  This determines the number of consecutive frames with drowsiness detection before triggering the warning.
 - You can customize the HTML templates in the templates folder to change the appearance of the web interface.
 ## Contributing
 

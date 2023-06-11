@@ -30,9 +30,9 @@ pip install -r requirements.txt
 ```
 3. Download the shape predictor model file from the dlib website:
 
-- Visit: http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
-- Extract the compressed file to the project directory.
-- Rename the extracted file to shape_predictor_68_face_landmarks.dat.
+ - Visit: http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+ - Extract the compressed file to the project directory.
+ - Rename the extracted file to shape_predictor_68_face_landmarks.dat.
 
 ## Usage
 

@@ -1,4 +1,5 @@
 
+
 # Drowsiness Detection System
 
 This project implements a drowsiness detection system using a webcam. The system utilizes computer vision techniques to monitor a person's eyes and detect signs of drowsiness in real-time.
@@ -69,7 +70,4 @@ This project is licensed under the MIT License.
 For any inquiries or questions, please contact shashivadan99@gmail.com.
 
 Feel free to customize this README to provide additional information or make it more specific to your project.
-
-
-
 

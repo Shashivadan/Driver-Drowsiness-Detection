@@ -30,9 +30,9 @@ pip install -r requirements.txt
 ```
 3. Download the shape predictor model file from the dlib website:
 
-- Visit: http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
-- Extract the compressed file to the project directory.
-- Rename the extracted file to shape_predictor_68_face_landmarks.dat.
+ - Visit: http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+ - Extract the compressed file to the project directory.
+ - Rename the extracted file to shape_predictor_68_face_landmarks.dat.
 
 ## Usage
 
@@ -47,7 +47,7 @@ python main.py
 
 ## Customization
 
-- You can modify the drowsiness detection parameters by adjusting the `ear_thresh` value in the `generate_frames` function of `app.py`.  This determines the number of consecutive frames with drowsiness detection before triggering the warning.
+- You can modify the drowsiness detection parameters by adjusting the `ear_thresh` value in the `generate_frames` function of `main.py`.  This determines the number of consecutive frames with drowsiness detection before triggering the warning.
 - You can customize the HTML templates in the templates folder to change the appearance of the web interface.
 ## Contributing
 

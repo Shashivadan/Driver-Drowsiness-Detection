@@ -7,6 +7,7 @@ predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 
 def eye_aspect_ratio(eye):
+
     A = np.linalg.norm(eye[1] - eye[5])
     B = np.linalg.norm(eye[2] - eye[4])
     C = np.linalg.norm(eye[0] - eye[3])
@@ -41,6 +42,6 @@ def detect_drowsiness(frame):
         right_ear = eye_aspect_ratio(np.array(right_eye))
         avg_ear = (left_ear + right_ear) / 2.0
 
-        if avg_ear < 0.26:
+        if avg_ear < 0.25:
             return True
     return False

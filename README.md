@@ -4,12 +4,8 @@
 
 This project implements a drowsiness detection system using a webcam. The system utilizes computer vision techniques to monitor a person's eyes and detect signs of drowsiness in real-time.
 
-
-
-
 ## Requirements
 Make sure you have the following dependencies installed:
-
 - Python 
 - OpenCV (cv2)
 - dlib
@@ -17,10 +13,8 @@ Make sure you have the following dependencies installed:
 - Flask
 - Pygame
 ## Installation
-
 Clone this repository to your local machine:
-
-1. bash
+1. bash or PowerShell
 ```Git
  git clone https://github.com/Shashivadan/drowsiness-detection.git
 ```
